@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO LIST</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" async></script>
+    <audio id="audio" src="bell.mp3" type="audio/mp3"></audio>
+  </head>
+  <body>
+    <h1 class="text-center">TODO LIST</h1>
+    <div class="container">
+      <div id="root"></div>
+      <form>
+        <div class="form-group">
+          <label for="text">Enter The new Todo</label>
+          <input type="text" class="form-control" id="text" />
+        </div>
+        <button type="submit" class="btn btn-primary">Add</button>
+        <button type="submit" class="btn btn-danger">Clear</button>
+      </form>
+    </div>
+  </body>
+</html>

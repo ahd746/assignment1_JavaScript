@@ -1,0 +1,10 @@
+.underline {
+  text-decoration: line-through;
+}
+
+.del {
+  background-color: red;
+  border-radius: 50%;
+  color: black;
+  padding: -1px;
+}
