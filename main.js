@@ -60,7 +60,7 @@ clearBtn.addEventListener('click', (e) => {
 })
 
 
-//Phase two add todos API as example for user 
+//Phase two add todos API as example for the user 
 //fetch data 
 let fetchTodos = async () => {
   const response = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=10')
