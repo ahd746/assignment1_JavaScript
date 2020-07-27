@@ -11,7 +11,7 @@ addBtn.addEventListener('click', (e) => {
   //prevent form from submit
   e.preventDefault();
   //create todo with the entered value
-  createTodo(e.value);
+  createTodo(input.value);
   //clear the input 
   input.value = '';
 })
@@ -24,7 +24,6 @@ clearBtn.addEventListener('click', (e) => {
 
 
 //Phase two: Add todos API as example for the user 
-//Note: I made some changes to phase one code to make the code more DRY
 //fetch data 
 let fetchTodos = async () => {
   const response = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=10')
